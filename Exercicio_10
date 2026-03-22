@@ -1,0 +1,17 @@
+/*10)Entrar com o ano de nascimento de uma pessoa e o ano atual. Imprimir a idade da
+pessoa. Não se esqueça de verificar se o ano de nascimento é um ano válido.*/
+
+#include<stdio.h>
+int main(){
+	int ano, idade;
+		printf("Digite o ano de seu nascimento: ");
+			scanf("%d", &ano);
+				if(ano >= 1900){
+					idade = 2026 - ano;
+						printf("Sua idade eh:  %d", idade);
+					}
+						else{
+							printf("Ano de nascimento invalido");
+						}
+				
+}
