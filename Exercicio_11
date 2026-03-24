@@ -1,1 +1,21 @@
+/*11)Ler dois valores numéricos, efetuar a adição. Caso o valor somado seja maior ou
+igual a 10, este deverá ser apresentado somando-se a ele mais 5, caso o valor
+somado não seja maior ou igual a 10, este deverá ser apresentado subtraindo-se 7.*/
 
+#include<stdio.h>
+	int main(){
+		float num1, num2, resultado;
+			printf("Digite o primeiro valor: ");
+				scanf("%f", &num1);
+					printf("\nDigite o segundo numero: ");
+						scanf("%f", &num2);
+							resultado = num1 + num2;
+								if(resultado >= 10){
+									resultado = resultado + 5;
+										printf("\no seu resultado foi somado +5: %0.2f", resultado);
+								}
+											else{
+												resultado = resultado - 7;
+													printf("\no seu resultado foi subtraido -7: %0.2f", resultado);
+											}
+	}
