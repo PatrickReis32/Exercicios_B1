@@ -1,0 +1,19 @@
+/*14)Entrar com um número e imprimir uma das mensagens: maior do que 20, igual a 20
+ou menor do que 20.*/
+
+#include<stdio.h>
+	int main(){
+		float num;
+			printf("Digite o numero: ");
+				scanf("%f", &num);
+					if(num > 20){
+						printf("\nNumero maior que 20");
+					}
+							if(num == 20){
+								printf("\nNumero igual a 20");								
+							}
+									if(num < 20){
+										printf("Numero menor que 20");
+									}
+								
+	}
