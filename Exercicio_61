@@ -1,0 +1,13 @@
+/*61)Criar um algoritmo que entre com o valor de x, calcule e imprima o valor de f(x).
+f(x) = 8 / 2-x */
+
+#include<stdio.h>
+	int main(){
+		float resultado;
+		int num;
+			printf("Entre com o valor de X: ");
+				scanf("%d", &num);
+					resultado = 8.0 / (2 - num);
+						printf("\nF(X) = %0.2f", resultado);
+			
+	}
